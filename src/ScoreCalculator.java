@@ -1,9 +1,10 @@
 public class ScoreCalculator {
+
     public double calculateMetricScore(Metric m) {
-        return 0;
+        return m.calculateScore();
     }
 
     public double calculateDimensionScore(Dimension d) {
-        return 0;
+        return d.calculateDimensionScore();
     }
 }

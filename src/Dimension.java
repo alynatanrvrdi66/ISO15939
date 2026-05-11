@@ -7,7 +7,7 @@ public class Dimension {
     private ArrayList<Metric> metrics;
     private double Dscore;
 
-    public Dimension(String name,double coefficient,List<Metric> metrics,double Dscore){
+    public Dimension(String name,double coefficient){
         this.name = name;
         this.coefficient = coefficient;
         this.metrics = new ArrayList<>();

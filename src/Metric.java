@@ -10,7 +10,7 @@ public class Metric {
     private double score;
 
     public Metric(String name,double coefficient,String direction,double minValue,
-                  double maxValue,String unit,double value, double score){
+                  double maxValue,String unit,double value){
         this.name=name;
         this.coefficient=coefficient;
         this.direction=direction;
